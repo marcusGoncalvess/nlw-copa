@@ -11,21 +11,21 @@ export function Find() {
       <Header title="Buscar por código" showBackButton />
 
       <VStack mt={8} mx={5} alignItems="center">
-        <Heading
-          fontFamily="heading"
-          color="white"
-          fontSize="xl"
-          mb={8}
-          textAlign="center"
-        >
-          Encontre um bolão através de{"\n"}
+
+        <Heading fontFamily="heading" color="white" fontSize="xl" mb={8} textAlign="center">
+          Encontre um bolão através de{'\n'}
           seu código único
         </Heading>
 
-        <Input mb={2} placeholder="Qual o código do bolão?" />
+        <Input 
+          mb={2}
+          placeholder="Qual o código do bolão?"
+        />
 
-        <Button>BUSCAR POR CÓDIGO</Button>
+        <Button
+          title="BUSCAR POR CÓDIGO"
+        />
       </VStack>
     </VStack>
-  );
+  )
 }
